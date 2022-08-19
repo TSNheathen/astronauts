@@ -44,7 +44,7 @@ export default function Home() {
             <Typography>You currently do not have astronauts. Please add some.</Typography>
             <Link href="/profile/add" passHref>
               <Button variant="contained" color="primary" size="large" className={styles.add}>
-                <AddIcon /> Add
+                <AddIcon /> Add astronaut
               </Button>
             </Link>
           </>
